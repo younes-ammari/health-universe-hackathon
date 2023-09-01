@@ -157,7 +157,7 @@ window.addEventListener('load', function () {
         var newAvatar = document.createElement('figure');
         newAvatar.className = 'avatar';
         var newImg = document.createElement('img');
-        newImg.src = '/static/img/loader.gif';
+        newImg.src = 'https://apps.healthuniverse.com/cng-usf-sox/static/img/loader.gif';
         newAvatar.appendChild(newImg);
         newMessage.appendChild(newAvatar);
         newMessage.innerHTML = text;
@@ -176,7 +176,7 @@ window.addEventListener('load', function () {
         var avatar = document.createElement('figure');
         avatar.className = 'avatar';
         var img = document.createElement('img');
-        img.src = '/static/img/loader.gif';
+        img.src = 'https://apps.healthuniverse.com/cng-usf-sox/static/img/loader.gif';
         avatar.appendChild(img);
         loadingMessage.appendChild(avatar);
         var span = document.createElement('span');
