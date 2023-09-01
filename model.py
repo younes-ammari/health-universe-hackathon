@@ -69,6 +69,7 @@ class Patient():
                 return response_json
             except Exception as e:
                 print('Error info try n°:', i, e)
+                demo_output['Error'] = str(e)
                 pass
 
         return demo_output
