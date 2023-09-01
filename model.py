@@ -16,7 +16,7 @@ import os
 
 load_dotenv(find_dotenv())
 
-openai.api_key = os.getenv("open-ai-key")
+openai.api_key = os.getenv("openaikey")
 
 
 DISEASES = []
