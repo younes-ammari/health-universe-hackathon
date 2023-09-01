@@ -57,7 +57,7 @@ async function generate() {
         hotspotId: "hotspot.id"
     };
 
-    fetch('/cng-usf-sox/generate', {
+    fetch('https://vaip.me/generate', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
