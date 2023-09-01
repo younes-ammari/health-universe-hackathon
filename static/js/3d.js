@@ -28,7 +28,7 @@ function handleGrabHotspotsClick() {
   console.log(json);
 }
 async function changeTexture() {
-  const imageUrl = "../static/3d/color.jpg"; // Replace with the actual path to your image
+  const imageUrl = "https://apps.healthuniverse.com/cng-usf-sox/static/3d/color.jpg"; // Replace with the actual path to your image
   
   const texture = await modelViewer1.createTexture(imageUrl);
   // modelViewer1.model.materials[0].normalTexture.setTexture(texture);
