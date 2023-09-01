@@ -131,7 +131,7 @@ window.addEventListener('load', function () {
                 disease: diseaseData
             };
 
-            const response = await fetch('https://vaip.me/chat', {
+            const response = await fetch('/cng-usf-sox/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
