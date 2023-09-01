@@ -57,7 +57,7 @@ async function generate() {
         hotspotId: "hotspot.id"
     };
 
-    fetch('/generate', {
+    fetch('/cng-usf-sox/generate', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
